@@ -14,9 +14,7 @@ Summary: Continuous Integration Tools
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cibots-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cibots-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cibots-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cibots-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cibots-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cibots-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/cibots-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cibots-feedstock)
 
 Current release info
 ====================
