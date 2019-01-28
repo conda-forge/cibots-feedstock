@@ -22,6 +22,8 @@ requirements:
     - requests
 
 test:
+  source_files:
+    - run_tests.py
   commands:
     - python run_tests.py -v2
 
