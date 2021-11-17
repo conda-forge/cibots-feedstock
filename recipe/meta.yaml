@@ -11,14 +11,15 @@ source:
 
 build:
   number: 1003
+  noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - requests
 
 test:
@@ -29,7 +30,7 @@ test:
 
 about:
     home:  http://github.com/UV-CDAT/ci-bots
-    license: BSD 3-clause
+    license: BSD-3-Clause
     license_file: LICENCE.txt
     summary: 'Continuous Integration Tools'
 
