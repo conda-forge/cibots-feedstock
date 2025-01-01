@@ -10,19 +10,21 @@ source:
     sha256: 2177f3035689147ab74f0ab07bc6b1700052bcbd2f3fdcb498a3e3e57b9622e1
 
 build:
-  number: 1003
+  number: 1004
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - requests
 
 test:
+  requires:
+    - python {{ python_min }}
   source_files:
     - run_tests.py
   commands:
